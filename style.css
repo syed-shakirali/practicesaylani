@@ -1,0 +1,78 @@
+@font-face {
+    font-family: ali;
+    src: url(NewAmsterdam-Regular.ttf);
+}
+
+
+
+
+header{
+    /* display:flex; */
+    flex-direction: row;
+}
+.class1{
+    display:flex;
+
+}
+li{
+    list-style: none;
+    padding: 34px 23px;
+    /* font-size: 25px; */
+}
+section{
+    margin: 3px 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    /* border: 2px solid blue; */
+}
+h1{
+    font-size: 60px;
+    font-family: ali;
+}
+body{
+    background-image: url(../photo/bikes.jpg);
+    /* background-image:url(./bikes.jpg) ; */
+    background-repeat: no-repeat;
+    color:whitesmoke;
+    background-size: cover;
+    height: 800px;
+}
+p{
+    font-size: 20px; 
+    color: rgb(51, 255, 0);
+    font-size: 20px;
+}
+header::before{
+    background-image: url(../photo/bikes.jpg);
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0.5;
+    z-index: -1;
+}
+ul li:hover{
+    background-color: rgb(4, 0, 255);
+    color: white;
+}
+ul li{
+    text-decoration-line: none;
+    display: block;
+    padding: 8px 16px;
+    border-radius: 15px;
+    font-size: 25px;
+}
+a input{
+    font-size: 25px;
+    color: rgb(255, 255, 255); 
+    border-radius: 10px;
+    background-color: lime;
+}
+ul{
+    background-color: grey;
+    width: 35%;
+    border-radius: 5px;
+}
