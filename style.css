@@ -32,7 +32,7 @@ h1{
     font-family: ali;
 }
 body{
-    background-image: url(../photo/bikes.jpg);
+    background-image: url(./bikes.jpg);
     /* background-image:url(./bikes.jpg) ; */
     background-repeat: no-repeat;
     color:whitesmoke;
@@ -45,7 +45,7 @@ p{
     font-size: 20px;
 }
 header::before{
-    background-image: url(../photo/bikes.jpg);
+    background-image: url(./bikes.jpg);
     background-repeat: no-repeat;
     content: "";
     position: absolute;
